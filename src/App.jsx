@@ -1,7 +1,25 @@
+import Features from "./sections/Features";
+import Header from "./sections/Header";
+import Hero from "./sections/Hero";
+import Pricing from "./sections/Pricing.jsx";
+import Faq from "./sections/Faq.jsx";
+import Testimonials from "./sections/Testimonials.jsx";
+import Download from "./sections/Download.jsx";
+import Footer from "./sections/Footer.jsx";
+
 function App() {
   return (
     <>
-      <main className="overflow-hidden">gokul</main>
+      <main className="overflow-hidden">
+        <Header />
+        <Hero />
+        <Features />
+        <Pricing />
+        <Faq />
+        <Testimonials />
+        <Download />
+        <Footer />
+      </main>
     </>
   );
 }
